@@ -9,7 +9,7 @@ Senior Software Engineer with 10+ years building scalable backends and high perf
 ## Featured Projects
 
 ### [agent-desk](https://github.com/jesusizq/agent-desk)
-Run many AI coding agents in parallel without babysitting terminals. An agent stops the moment it needs a decision, and with several sessions open that question sits buried in some terminal while the work waits. agent-desk tells you as soon as any session needs you and lets you answer right there, at your desk or from your phone, so agents keep working while you are away and your time goes into decisions, not into hunting through terminals. When they finish, you review what they delivered, screenshots included. Use it on your own machine, or reach it from your phone through your Tailscale network. Zero model tokens, nothing leaves your machine, provider-independent (Claude Code adapter today).
+Run many AI coding agents in parallel without babysitting terminals. An agent stops the moment it needs a decision, and with several sessions open that question sits buried in some terminal while the work waits. agent-desk tells you as soon as any session needs you and lets you answer right there, at your desk or from your phone, so agents keep working while you are away and your time goes into decisions, not into hunting through terminals. When they finish, you review what they delivered, screenshots included. Use it on your own machine, or reach it from your phone through your Tailscale network. Zero runtime dependencies, zero model tokens, nothing leaves your machine, provider-independent (Claude Code adapter today).
 
 **Tech:** TypeScript, Node.js, provider adapters (Claude Code hooks), VS Code extension, tmux, Tailscale
 
