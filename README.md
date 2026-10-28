@@ -8,6 +8,11 @@ Senior Software Engineer with 10+ years building scalable backends and high perf
 
 ## Featured Projects
 
+### [agent-desk](https://github.com/jesusizq/agent-desk)
+Local dashboard to follow and answer every AI coding session on a machine, built for running several Claude Code sessions with many sub-agents at once. Questions and permission prompts land in one inbox and are answered from the browser or a phone, delivered verbatim through deterministic hooks that cost no model tokens. Results show with their screenshots, sessions with their agents and context use, worktrees with their disk use. Provider-independent core, no runtime dependencies, bound to 127.0.0.1; phone access over Tailscale behind a PIN.
+
+**Tech:** TypeScript, Node.js, Claude Code hooks, VS Code extension, tmux, Tailscale
+
 ### [Event Integrator](https://github.com/jesusizq/event-integrator)
 Production-ready Python (Flask) microservice that aggregates, normalizes, and serves event data from external XML APIs. With async ingestion (Celery), Redis caching, and PostgreSQL storage. Designed for resilience: decouples reads from provider failures, ensures <50ms response times during heavy sync.
 
